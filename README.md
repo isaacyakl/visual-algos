@@ -2,4 +2,4 @@
 
 Visualizer for common programming algorithms
 
-[Visualizer &raquo;](https://isaacyakl.github.io/visualAlgos/)
+[Visualizer &raquo;](https://visual-algos.vercel.app/)
