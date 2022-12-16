@@ -1,4 +1,5 @@
 import Head from "next/head";
+import LiveSearch from "../components/LiveSearch";
 
 export default function Home() {
 	return (
@@ -8,14 +9,13 @@ export default function Home() {
 				<meta name="description" content="A visualizer for common programming algos." />
 			</Head>
 
-			<div id="controls" className="max-w-screen-xl mx-auto flex justify-between items-center">
+			<div id="controls" className="max-w-screen-xl mx-auto flex flex-wrap justify-between items-top">
 				<div id="description" className="m-10 grow-0">
 					<h1 className="text-2xl text-sky-600 font-bold">visualAlgos</h1>
 					<p>A visualizer for common programming algos.</p>
 				</div>
 				<div id="searchContainer" className="m-10 grow">
-					<input type="text" name="search" id="search" className="text-black border-2 border-sky-600 rounded p-2 w-full" placeholder="Search algos..." autoComplete="off" />
-					<div id="algo-dd" className="w-full"></div>
+					<LiveSearch />
 				</div>
 			</div>
 			<main className="max-w-screen-xl mx-auto"></main>

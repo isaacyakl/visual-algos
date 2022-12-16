@@ -25,3 +25,20 @@ code {
 	font-size: 1.1rem;
 	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+#algo-dd {
+	scrollbar-color: rgb(2 132 199) #333;
+}
+
+#algo-dd::-webkit-scrollbar {
+	width: 0.5rem;
+	height: 10px;
+}
+
+#algo-dd::-webkit-scrollbar-thumb {
+	background: rgb(2 132 199);
+}
+
+#algo-dd::-webkit-scrollbar-track {
+	background: #333;
+}
